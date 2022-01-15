@@ -13,7 +13,7 @@ body {
     color: #1F3F68;
 }
 
-.contacts_heading {
+.contacts__heading {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
@@ -24,7 +24,7 @@ body {
     text-align: center;
 }
 
-.heading_mini {
+.heading__mini {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;

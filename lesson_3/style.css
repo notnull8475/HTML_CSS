@@ -8,23 +8,23 @@ body {
     color: #1f3f68;
 }
 
-.top__heading {
+.head-1 {
     font-size: 64px;
     color: #1F3F68;
 }
 
-.contacts_heading {
+.head-2 {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
 
-.heading {
+.head-3 {
     font-size: 36px;
     text-align: center;
 }
 
-.heading_mini {
+.head-4 {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
