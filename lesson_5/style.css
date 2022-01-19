@@ -8,45 +8,153 @@ body {
 }
 
 
+/* Контейнер */
 .container {
-    width: 1148px;
+    max-width: 1148px;
     margin: 0 auto;
 }
 
-
+/* Параграфы */
 .text {
     font-size: 16px;
     line-height: 26px;
     color: #1f3f68;
 }
 
+/*Добавил отдельный класс для отступов между разделами, */
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.bgg {
+    background-color: #ddd;
+}
+
+.lsn {
+    list-style: none;
+}
+
+/*
+* TOP SECTION
+*/
+
+/*меню */
+/*убрал точки в начале*/
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* заголовок в топе на главой странице */
 .top__heading {
     font-size: 64px;
     color: #1F3F68;
     width: 510px;
 }
 
+/* текст под заголовком в топе на главной
+* воспользовался данным свйоством, так как параграфы меняются единожды
+*/
 .top__heading+.text {
     width: 425px;
 }
 
-.contacts__heading {
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
+
+/*
+* БЛОК КОНТЕНТА
+*/
+
+/*блок карточек*/
+.cards__area {
+    display: flex;
+    justify-content: space-around;
 }
 
-.heading {
-    font-size: 36px;
-    text-align: center;
+/*сама карточка*/
+/* добавил фон карточкам для наглядности
+*/
+.card {
+    background-color: #ddd;
+    flex-grow: 1;
+    width: 359px;
+    padding: 5px;
+    margin: 10px;
 }
 
+
+/*Заголовки H4 */
 .heading__mini {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
 }
 
+/*
+* PROJECT SECTION "Our finished Project"
+*/
+
+.project__section {
+    text-align: center;
+}
+
+
+/*
+*СТРАНИЦА КОНТАКТЫ
+*/
+
+/*
+* CONTACTS TOP SECTIONS
+*/
+/*центрирование текста в блоке*/
+.contact__head {
+    text-align: center;
+}
+
+/* заголовок в топе на странице контактов*/
+.contacts__heading {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+/*Закголовоки H3*/
+.heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+/*
+* ФОРМА ОТПРАВКИ СООБЩЕНИЯ
+*/
+.contact__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__info {
+    /*width: 200px;*/
+    flex-grow: 1;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+.contact__item {
+    margin: 5px;
+}
+
+/* Поля ввода */
 .input {
     border: 1px solid #356EAD;
     box-sizing: border-box;
@@ -54,6 +162,7 @@ body {
     opacity: 0.4;
 }
 
+/*кнопка на форме*/
 .btn {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -66,17 +175,24 @@ body {
     text-transform: uppercase;
 }
 
-.top__menu {
+/*
+* ПОДВАЛ FOOTER
+*/
+
+
+/*верхний блок футера*/
+.footer__top__content {
+    width: 495px;
+}
+
+/*список в нижней части футера*/
+.footer__list {
+
     display: flex;
     justify-content: space-between;
 }
 
-.cards__area {
-    display: flex;
-    justify-content: space-around;
-}
-
-.card {
-    flex-grow: 1;
-    width: 359px;
+/*Закголовой в верхней части футера*/
+.footer__header {
+    width: 340px;
 }

@@ -10,80 +10,124 @@
 </head>
 
 <body>
-    <div class="top">
-        <ul class="top__menu">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-    <div class="contact__head">
-        <div class="contact__head__title">
+    <!--Главное меню-->
+    <ul class="top__menu container mb30 mt15 lsn">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <!--конец меню-->
+
+    <!--шапка начало-->
+    <div class="contact__head mb30 bgg">
+        <div class="contact__head__title container ">
             <h2 class="contacts__heading">Contact Us</h2>
             <p class="text">Orci biam.</p>
         </div>
     </div>
-    <div class="contact__section">
-        <div class="contact__info">
+    <!--шапка конец-->
+
+    <!--блок данных и формы-->
+    <div class="contact__section container mb30">
+        <!--    данные-->
+        <div class="contact__info bgg">
+            <!--        картинка-->
             <div class="contact__info__img">
                 <img src="img/img350px.png" alt="произвольное изображение">
             </div>
+
             <div class="contact__item">
                 <h4 class="heading__mini">Address</h4>
                 <p class="text">Nullam.</p>
             </div>
+
             <div class="contact__item">
                 <h4 class="heading__mini">Phone</h4>
-                <ul>
+                <ul class="lsn">
                     <li>+79123456789</li>
                     <li>+79123456789</li>
                 </ul>
             </div>
+
             <div class="contact__item">
                 <h4 class="heading__mini">Online service</h4>
-                <ul>
+                <ul class="lsn">
                     <li><a href="https://www.artlebedev.ru/typograf/" target="_blank">Типограф</a></li>
                     <li><a href="mailto:mail@mail.ru">mail@mail.ru</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="contact__form">
-            <h4 class="heading__mini">Send us message</h4>
 
+        </div>
+        <!--    блок формы-->
+        <div class="contact__info bgg">
+            <h4 class="heading__mini">Send us message</h4>
+            <!--Форма-->
             <form action="#">
-                <label>Full Name <input class="input" type="text" placeholder="Full Name"></label><br>
-                <label>Email <input class="input" type="email" placeholder="mail@mail.ru"></label><br>
-                <label for="message">Message:</label> <br>
-                <textarea name="Message" class="input" id="message" cols="30" rows="5"
-                    placeholder="Your message"></textarea><br>
+
+                <div class="contact__item">
+                    <label for="name">Full Name</label><br>
+                    <input id="name" class="input" type="text" placeholder="Full Name">
+                </div>
+
+                <div class="contact__item">
+                    <label for="email">Email</label><br>
+                    <input id="email" class="input" type="email" placeholder="mail@mail.ru">
+                </div>
+
+                <div class="contact__item">
+                    <label for="message">Message:</label><br>
+                    <textarea name="Message" class="input" id="message" cols="30" rows="5" placeholder="Your message">
+                </textarea>
+                </div>
+
                 <button class="btn">submit</button>
             </form>
+            <!--Конец формы-->
         </div>
+        <!--    конец блока формы-->
     </div>
-    <div class="map__section">
+    <!--Конец блока данных и  формы-->
+
+    <!--блок карты-->
+    <div class="map__section container mb30">
         <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A8279872afc8a17c575a2faa5857cfe2f6724c18da592c6a55edb7f0b9b91deee&amp;source=constructor"
-            width="500" height="400" frameborder="0"></iframe>
+            width="100%" height="400" frameborder="0"></iframe>
     </div>
-    <div class="footer">
-        <div class="footer__top">
-            <div class="footer__top__content">
-                <h3 class="heading">Третий заголовок</h3>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper.</p>
-            </div>
-        </div>
-        <hr>
-        <div class="footer__bottom">
-            <ul class="footer__list">
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>+79123456789</li>
-                <li>mail@mail.ru</li>
-            </ul>
+    <!--конец карты-->
 
-            <div class="copyright">
-                <p class="text"> &copy; “Все права защищены”</p>
+    <!--Подвал-->
+    <div class="footer">
+        <div class="container">
+
+            <!--        верхняя часть -->
+            <div class="footer__top">
+                <div class="footer__top__content bgg mb30">
+                    <!--В задании указан заголовок h4, думаю опечатка-->
+                    <h3 class="heading">Третий заголовок</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper.</p>
+
+                </div>
             </div>
+
+            <hr>
+
+            <!--        нижняя часть -->
+            <div class="footer__bottom mt30">
+                <!-- список -->
+                <ul class="footer__list lsn">
+                    <li class="footer__header bgg">Lorem ipsum dolor sit amet.</li>
+                    <li class="phone">+79123456789</li>
+                    <li class="email">mail@mail.ru</li>
+                </ul>
+
+                <div class="copyright mt30 ">
+                    <p class="text"> &copy; “Все права защищены”</p>
+                </div>
+            </div>
+
         </div>
     </div>
+    <!--конец подвала-->
 </body>
 
 </html>

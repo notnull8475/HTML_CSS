@@ -10,13 +10,17 @@
 </head>
 
 <body>
-    <div class="top__section">
+    <!-- начало: Меню и загаловок  с параграфом -->
+    <div class="top__section mb30">
         <div class="container">
-            <ul class="top__menu">
+
+            <!--меню-->
+            <ul class="top__menu mb15 mt15">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>
 
+            <!-- блок заголовка        -->
             <div class="top__content">
                 <h1 class="top__heading">Мой первый сайт</h1>
                 <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt error facere expedita
@@ -26,57 +30,85 @@
             </div>
         </div>
     </div>
-    <div class="what-we-do container">
-        <h3 class="heading">Первый заголовок</h3>
-        <div class="cards__area">
-            <div class="card">
-                <h4 class="heading__mini">Nullam sit amet sodales.</h4>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi magna, molestie eu magna
-                    a.
-                </p>
-            </div>
-            <div class="card">
-                <h4 class="heading__mini">Nullam sit amet sodales.</h4>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi magna, molestie eu magna
-                    a.
-                </p>
-            </div>
-            <div class="card">
-                <h4 class="heading__mini">Nullam sit amet sodales.</h4>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi magna, molestie eu magna
-                    a.
-                </p>
-            </div>
-        </div>
-    </div>
+    <!-- конец -->
+    <!-- начало: блок what-we-do-->
+    <div class="what-we-do container mb30">
 
-    <div class="midle__section">
+        <h3 class="heading">Первый заголовок</h3>
+
+        <!--    блок карточек-->
+        <div class="cards__area">
+
+            <!--        первая карта-->
+            <div class="card bgg">
+                <h4 class="heading__mini">Nullam sit amet sodales.</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi magna, molestie eu magna
+                    a.
+                </p>
+            </div>
+
+            <!--        вторая -->
+            <div class="card bgg">
+                <h4 class="heading__mini">Nullam sit amet sodales.</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi magna, molestie eu magna
+                    a.
+                </p>
+            </div>
+
+            <!--        третья-->
+            <div class="card bgg">
+                <h4 class="heading__mini">Nullam sit amet sodales.</h4>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mi magna, molestie eu magna
+                    a.
+                </p>
+            </div>
+
+        </div>
+        <!--    конец блока карточек-->
+
+    </div>
+    <!--конец блока what-we-do-->
+
+    <!--начало блока с заголовком и отзывом, на макете называется "Our finished Project"-->
+    <div class="project__section container mb30 bgg">
         <h3 class="heading">Второй заголовок</h3>
         <p class="text">Maecenas eu lorem eget urna condimentum varius sit amet nec.</p>
     </div>
+    <!--конец -->
 
+    <!--Подвал-->
     <div class="footer">
         <div class="container">
+
+            <!--        верхняя часть -->
             <div class="footer__top">
-                <div class="footer__top__content">
+                <div class="footer__top__content bgg mb30">
+                    <!--В задании указан заголовок h4, думаю опечатка-->
                     <h3 class="heading">Третий заголовок</h3>
                     <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper.</p>
+
                 </div>
             </div>
+
             <hr>
-            <div class="footer__bottom">
-                <ul class="footer__list">
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>+79123456789</li>
-                    <li>mail@mail.ru</li>
+
+            <!--        нижняя часть -->
+            <div class="footer__bottom mt30">
+                <!-- список -->
+                <ul class="footer__list lsn">
+                    <li class="footer__header bgg">Lorem ipsum dolor sit amet.</li>
+                    <li class="phone">+79123456789</li>
+                    <li class="email">mail@mail.ru</li>
                 </ul>
 
-                <div class="copyright">
+                <div class="copyright mt30 ">
                     <p class="text"> &copy; “Все права защищены”</p>
                 </div>
             </div>
+
         </div>
     </div>
+    <!--конец подвала-->
 </body>
 
 </html>
