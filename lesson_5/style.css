@@ -50,6 +50,11 @@ body {
 * TOP SECTION
 */
 
+.top__section {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
 /*меню */
 /*убрал точки в начале*/
 .top__menu {
@@ -79,7 +84,7 @@ body {
 /*блок карточек*/
 .cards__area {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /*сама карточка*/
